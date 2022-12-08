@@ -61,6 +61,7 @@ h2, h3 {
 p a, .profile a {
     text-decoration: none;
     color: #e55b2d;
+    transition: .2s;
 }
 
 p a:hover, .profile a:hover {
@@ -72,7 +73,16 @@ footer {
     color: white;
     background-color: #e55b2d;
     text-align: center;
+}
+
+footer a {
     font-weight: bold;
+    color: white;
+    transition: .2s;
+}
+
+footer a:hover {
+    color: #ed8e24;
 }
 
 .jumbotron {
@@ -193,6 +203,7 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: .2s;
 }
 
 input[type=submit]:hover {
