@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="shortcut icon" href="https://api.iconify.design/fluent/brain-circuit-24-filled.svg?color=%23f8bf3c" type="image/x-icon">
+
+    <title>Machine Learning Development</title>
+</head>
+
+<body>
+    <header>
+        <span class="iconify" data-icon="fluent:brain-circuit-24-filled" style="color: #ed8e24;"></span>
+        <div class="jumbotron">
+            <h1>Machine Learning Development</h1>
+            <p>Apa itu Machine Learning dan apa saja <i>tools</i> serta beberapa <i>library</i> yang populer untuk digunakan dalam pengembangan Machine Learning?</p>
+        </div>
+        <nav>
+            <ul>
+                <li class="active"><a href="#jenis">Jenis ML</a></li>
+                <li><a href="#tools">Tools ML</a></li>
+                <li><a href="#library">Library ML</a></li>
+                <li><a href="#profile">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="content">
+            <article id="jenis" class="card">
+                <h2>Jenis-jenis Machine Learning</h2>
+                <img src="assets/img/machine-learning.jpg" class="featured-image" alt="Machine Learning">
+                <p>Apa itu <i>machine learning?</i></p>
+
+                <p>Menurut Arthur Samuel (1959), <i>"A field of study that gives computers the ability to learn without being explicitly programmed."</i> <i>Machine learning</i> adalah suatu cabang ilmu yang memberi komputer kemampuan untuk belajar tanpa diprogram secara eksplisit. Selain <i>mahcine learning</i>, pasti juga sering mendengar <i>artificial intelligence</i> dan <i>deep learning</i>. <i>Machine learning</i> merupakan cabang dari <i>artificial intelligence</i> secara lebih spesifik menggunakan metode statistik untuk mempelajari pola pada data. Dan <i>deep learning</i> merupakan cabang dari <i>machine learning</i> dengan algoritma jaringan syaraf tiruan yang dapat belajar dan beradaptasi terhadap sejumlah besar data.</p>
+                
+                <section>
+                    <h3>1. Supervised Learning</h3>
+                    <p><i>Supervised learning</i> adalah jenis <i>machine learning</i> yang menyertakan solusi yang diinginkan (biasa disebut label) dalam proses pembelajarannya. Dataset yang digunakan dalam pembelajaran model <i>machine learning</i> telah memiliki label jawaban dan algoritma untuk mempelajari pola dari pasangan data dan label tersebut.</p>
+                </section>
+
+                <section>
+                    <h3>2. Unsupervised Learning</h3>
+                    <p>Berbeda dengan <i>supervised learning</i>, pada <i>unsupervised learning</i>, dataset yang digunakan tidak memiliki label. Model <i>machine learning</i> melakukan proses pembelajaran secara mandiri untuk memberi label atau mengelompokkan data secara manual tanpa disediakan oleh manusia.</p>
+                </section>
+                
+                <section>
+                    <h3>3. Semi-supervised Learning</h3>
+                    <p><i>Semi-supervised learning</i> adalah jenis <i>machine learning</i> yang menggabungkan teknik <i>supervised</i> dan <i>unsupervised learning</i>. Dataset yang digunakan untuk melatih model <i>machine learning</i> sebagiannya sudah dilabeli oleh manusia, dan sebagian lagi tanpa label. Contohnya adalah pada Google Photos yang diberi label <i>tag</i> nama orang pada satu foto wajah tertentu, dan beberapa yang lain tidak.</p>
+                </section>
+
+                <section>
+                    <h3>4. Reinforcement Learning</h3>
+                    <p><i>Reinforcement learning</i> merupakan metode pembelajaran model <i>machine learning</i> yang menggunakan sistem <i>reward</i> dan penalti. <i>Reward</i> akan diberikan kepada agen <i>machine learning</i> jika berhasil menyelesaikan tantangan atau permasalahan yang diberikan, sedangkan penalti akan diberikan ketika agen gagal untuk menyelesaikan tantangannya. Model <i>reinforcement learning</i> akan terus belajar untuk mendapatkan <i>reward</i> sebanyak mungkin, dan menghindari penalti.</p>
+                </section>
+            </article>
+
+            <article id="tools" class="card">
+                <h2>Tools dalam Machine Learning</h2>
+                <p>Python merupakan bahasa paling populer yang digunakan oleh para <i>Data Scientist</i> dan pengembang <i>Machine Learning</i> (ML). Keunggulan lain yang dimiliki Python adalah ia merupakan salah satu bahasa pemrograman yang mudah dipelajari karena sintaksnya sederhana.</p>
+                
+                <p>Dalam mengembangkan sebuah model <i>machine learning</i>, dibutuhkan alat atau <i>tools</i> yang umumnya disebut Notebook. Notebook yang akan dibahas kali ini adalah berbasis web (<i>web-based interactie development environtment</i>). Dalam membuat program <i>machine learning</i> dengan Notebook ini, digunakan bahasa pemrograman Python. Anda dapat melihat referensi bahasa pemrograman Python pada laman resmi <a href="https://www.python.org" target="_blank">Python</a>.</p>
+
+                <section>
+                    <h3>1. Jupyter Notebook</h3>
+                    <img src="assets/img/jupyter-notebook.jpg" class="featured-image img-top" alt="Jupyter Notebook">
+                    <p>Jupyter Notebook merupakan perangkat lunak gratis, <i>open-source</i>, dan layanan web yang dapat digunakan untuk komputasi interaktif berbagai bahasa pemrograman, salah satunya Python. Jupyter Notebook dapat digunakan secara langsung dengan melakukan instalasi melalui panduan <a href="https://docs.jupyter.org/en/latest/install.html" target="_blank">Install and Use</a> Jupyter Notebook atau dapat digunakan langsung melalui <i>browser</i> pada <a href="https://jupyter.org/try" target="_blank">Try Jupyter</a>, lalu pilih Jupyter Notebook.</p>
+                </section>
+
+                <section>
+                    <h3>2. Google Colaboratory</h3>
+                    <img src="assets/img/google-colab.jpg" class="featured-image img-top" alt="Google Colaboratory">
+                    <p>Google Colaboratory atau sering disingkat Colab merupakan aplikasi yang memungkinkan kita untuk menulis dan mengeksekusi kode Python melalui <i>browser</i>. Ia sangat cocok digunakan untuk <i>machine learning</i> dan analisis data, serta sering digunakan oleh pemula. Untuk menggunakan Google Colab, dapat melalui tautan <a href="https://colab.research.google.com/notebooks" target="_blank">ini</a>.</p>
+                </section>
+
+                <section>
+                    <h3>3. IBM Watson Studio</h3>
+                    <img src="assets/img/ibm-watson.png" class="featured-image img-top" alt="IBM Watson Studio">
+                    <p>IBM Watson Studio merupakan salah satu layanan dari IBM yang banyak digunakan oleh analis dan ilmuwan data. Anda juga dapat menjalankan kode secara <i>online</i> pada layanan seperti IBM Watson Studio tanpa perlu meng-<i>install</i> perangkat lunak apapun pada komputer. Sebelum menggunakan IBM Watson Studio, buatlah akun IBM Cloud terlebih dahulu. Akun IBM Cloud dapat dipakai untuk mengakses IBM Watson Studio, IBM Watson Machine Learning, dan IBM Cloud. Untuk dapat menggunakan IBM Watson Studio, dapat melakukan registasi terlebihi dahulu melalui <a href="https://cloud.ibm.com/registration?cm_sp=Cloud-Home-_-LeadspaceReg-IBMCloud_CloudHome-_-LSReg" target="_blank">Sign Up for IBM Cloud</a>, kemudian lakukan login ke <a href="https://cloud.ibm.com/login" target="_blank">IBM Cloud</a>.</p>
+                </section>
+            </article>
+
+            <article id="library" class="card">
+                <h2>Library Populer dalam Machine Learning</h2>
+                <p>Faktor lain yang membuat Python populer adalah lengkapnya <i>library</i> yang dapat dipakai pada pengembangan proyek <i>machine learning</i> dari awal sampai akhir. Python memiliki <i>library</i> untuk <i>data loading</i>, <i>visualization</i>, <i>statistics</i>, <i>data processing</i>, <i>natural language processing</i>, <i>image processing</i>, dan lain sebagainya.</p>
+
+                <p>Beberapa <i>library</i> yang memudahkan kita dalam mengerjakan proyek <i>machine learning</i> ditunjukkan dalam daftar berikut ini.</p>
+                
+                <section>
+                    <h3>1. NumPy</h3>
+                    <img src="assets/img/numpy.png" class="featured-image img-logo" alt="NumPy">
+                    <p><a href="https://numpy.org" target="_blank">NumPy</a> sangat terkenal sebagai library untuk memproses larik atau array. Fungsi-fungsi kompleks di baliknya membuat Numpy sangat tangguh dalam memproses larik multidimensi dan matriks berukuran besar. Library ML seperti TensorFlow juga menggunakan Numpy untuk memproses tensor atau sebuah larik N dimensi.</p>
+                </section>
+
+                <section>
+                    <h3>2. Pandas</h3>
+                    <img src="assets/img/pandas.png" class="featured-image img-logo" alt="Pandas">
+                    <p><a href="https://pandas.pydata.org" target="_blank">Pandas</a> menjadi salah satu library favorit untuk analisis dan manipulasi data. Kenapa keduanya penting? Sebelum masuk ke tahap pengembangan model, data perlu diproses dan dibersihkan. Proses ini bahkan merupakan proses yang paling banyak memakan waktu dalam pengembangan proyek ML. Library pandas membuat pemrosesan dan pembersihan data menjadi lebih mudah.</p>
+                </section>
+                
+                <section>
+                    <h3>3. Matplotlib</h3>
+                    <img src="assets/img/matplotlib.png" class="featured-image img-logo" alt="Matplotlib">
+                    <p><a href="https://matplotlib.org" target="_blank">Matplotlib</a> adalah sebuah library untuk membuat plot atau visualisasi data dalam 2 dimensi. Matplotlib mampu menghasilkan grafik dengan kualitas tinggi. Matplotlib dapat dipakai untuk membuat plot seperti histogram, scatter plot, grafik batang, pie chart, hanya dengan beberapa baris kode. Library ini sangat ramah pengguna.</p>
+                </section>
+
+                <section>
+                    <h3>4. Scikit Learn</h3>
+                    <img src="assets/img/scikit-learn.png" class="featured-image img-logo" alt="Scikit Learn">
+                    <p><a href="https://scikit-learn.org/stable" target="_blank">Scikit Learn</a> merupakan salah satu library ML yang sangat populer. Scikit Learn menyediakan banyak pilihan algoritma machine learning yang dapat langsung dipakai seperti klasifikasi, regresi, clustering, dimensionality reduction, dan pemrosesan data. Selain itu Scikit Learn juga dapat dipakai untuk analisis data.</p>
+                </section>
+                
+                <section>
+                    <h3>5. TensorFlow</h3>
+                    <img src="assets/img/tensorflow.png" class="featured-image img-logo" alt="TensorFlow">
+                    <p><a href="https://www.tensorflow.org" target="_blank">TensorFlow</a> adalah framework open source untuk machine learning yang dikembangkan dan digunakan oleh Google. TensorFlow memudahkan pembuatan model ML bagi pemula maupun ahli. Ia dapat dipakai untuk deep learning, computer vision, pemrosesan bahasa alami (Natural Language Processing), serta reinforcement learning.</p>
+                </section>
+
+                <section>
+                    <h3>6. PyTorch</h3>
+                    <img src="assets/img/pytorch.png" class="featured-image img-logo" alt="PyTorch">
+                    <p>Dikembangkan oleh Facebook, <a href="https://pytorch.org">PyTorch</a> adalah library yang dapat dipakai untuk masalah ML, computer vision, hingga pemrosesan bahasa alami. Bersaing dengan TensorFlow khususnya sebagai framework machine learning, PyTorch lebih populer di kalangan akademisi dibanding TensorFlow. Namun dalam industri, TensorFlow lebih populer karena skalabilitasnya lebih baik dibanding PyTorch.</p>
+                </section>
+
+                <section>
+                    <h3>7. Keras</h3>
+                    <img src="assets/img/keras.png" class="featured-image img-logo" alt="Keras">
+                    <p><a href="https://keras.io" target="_blank">Keras</a> adalah library deep learning yang luar biasa. Salah satu faktor yang membuat Keras sangat populer adalah penggunaannya yang minimalis dan simpel dalam mengembangkan deep learning. Keras dibangun di atas TensorFlow yang menjadikan Keras sebagai API dengan level lebih tinggi (Higher level API) dari TensorFlow sehingga antarmukanya lebih mudah dari TensorFlow. Keras sangat cocok untuk mengembangkan model deep learning dengan waktu yang lebih singkat atau untuk pembuatan prototipe.</p>
+                </section>
+            </article>
+        </div>
+        
+        <aside>
+            <article id="profile" class="profile card">
+                <header>
+                    <h2>Profile</h2>
+                    <p>Computer Science Student</p>
+                    <figure>
+                        <img class="profile-picture" src="assets/img/profile-picture.jpg">
+                    </figure>
+                </header>
+                <section>
+                    <h3>Biodata</h3>
+                    <table>
+                        <tr>
+                            <th>Nama</th>
+                            <td>Andrew Benedictus Jamesie</td>
+                        </tr>
+                        <tr>
+                            <th>Tempat Lahir</th>
+                            <td>Medan</td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Lahir</th>
+                            <td>20 Januari 2003</td>
+                        </tr>
+                        <tr>
+                            <th>Jenis Kelamin</th>
+                            <td>Laki-laki</td>
+                        </tr>
+                        <tr>
+                            <th>Alamat</th>
+                            <td>Medan</td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">Pekerjaan</th>
+                            <td>Mahasiswa, <a href="https://iklc.or.id" target="_blank">Asisten Lab</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.usu.ac.id" target="_blank">Universitas Sumatera Utara</a></td>
+                        </tr>
+                        <tr>
+                            <th rowspan="2">E-mail</th>
+                            <td><a href="mailto:andrewbjamesie@yahoo.com" target="_blank">andrewbjamesie@yahoo.com</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="mailto:andrew.jamesie@students.usu.ac.id" target="_blank">andrew.jamesie@students.usu.ac.id</a></td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+
+            <article id="social" class="profile card">
+                <header>
+                    <h2>Social Media</h2>
+                </header>
+                <section>
+                    <div class="flex-container-column">
+                        <div class="flex-container-row">
+                            <a href="https://instagram.com/andrewbenedictus" target="_blank" class="logo-icon">
+                                <img src="https://api.iconify.design/akar-icons/instagram-fill.svg" alt="Instagram">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCserpGA6grVSHzfzz_oBL7A" target="_blank" class="logo-icon">
+                                <img src="https://api.iconify.design/akar-icons/youtube-fill.svg" alt="YouTube">
+                            </a>
+                            <a href="https://id.linkedin.com/in/andrewbjamesie" target="_blank" class="logo-icon">
+                                <img src="https://api.iconify.design/akar-icons/linkedin-box-fill.svg" alt="LinkedIn">
+                            </a>
+                        </div>
+                        <div class="flex-container-row">
+                            <a href="https://github.com/aNdr3W03" target="_blank" class="logo-icon">
+                                <img src="https://api.iconify.design/akar-icons/github-fill.svg" alt="GitHub">
+                            </a>
+                            <a href="https://stackoverflow.com/users/13403662" target="_blank" class="logo-icon">
+                                <img src="https://api.iconify.design/akar-icons/stack-overflow-fill.svg" alt="Stack Overflow">
+                            </a>
+                            <a href="https://www.hackerrank.com/andrewbjamesie" target="_blank" class="logo-icon">
+                                <img src="https://api.iconify.design/cib/hackerrank.svg" alt="HackerRank">
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <article id="references" class="profile card">
+                <header>
+                    <h2>References</h2>
+                </header>
+                <section>
+                    <p><a href="https://www.dicoding.com/academies/184/tutorials/10752" target="_blank">Dicoding, Belajar Machine Learing Dasar untuk Pemula</a></p>
+                    <p><a href="https://jupyter.org" target="_blank">Jupyter Notebook</a></p>
+                    <p><a href="https://colab.research.google.com/notebooks" target="_blank">Google Colab</a></p>
+                    <p><a href="https://www.ibm.com/watson" target="_blank">IBM Watson Studio</a></p>
+                </section>
+            </article>
+
+            <article id="contact" class="profile card">
+                <header>
+                    <h2>Contact Us</h2>
+                </header>
+                <section>
+                    <div class="container">
+                        <form action="#">
+                            <label for="fname">Nama Depan</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Nama Anda" required>
+                            
+                            <label for="lname">Nama Belakang</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Nama Belakang Anda" required>
+
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="E-mail Anda" required>
+
+                            <label for="message">Pesan</label>
+                            <textarea id="message" name="message" placeholder="Tuliskan pesan Anda" style="height: 150px" required></textarea>
+
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+                </section>
+            </article>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; <script>document.write(currentYear)</script> Andrew Benedictus Jamesie All Rights Reserved</p>
+        <p>Belajar Dasar Pemrograman Web Dicoding Academy</p>
+    </footer>
+
+    <script src="assets/script/script.js"></script>
+    
+</body>
+</html>
